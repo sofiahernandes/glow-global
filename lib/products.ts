@@ -5,6 +5,7 @@ export const products = [
     slug: "my-finances",
     category: ["Planners"],
     price: 9.99,
+    mainImage: "/ipadMinhasFinancas.jpg",
     features: [
       "Monthly budget and income tracking",
       "Automatic calculations and responsive charts",
@@ -26,6 +27,7 @@ export const products = [
     slug: "my-studies",
     category: ["Planners"],
     price: 9.99,
+    mainImage: "/ipadMeusEstudos.jpg",
     features: [
       "Active study progress analysis",
       "Organize study by subject, topic, and date",
@@ -46,6 +48,7 @@ export const products = [
     slug: "ultimate-planner",
     category: ["Planners", "Calendars"],
     price: 7.77,
+    mainImage: "/ipadPlannerDefinitivo.jpg",
     features: [
       "Daily schedule with hourly time blocks",
       "Weekly schedule for important highlights",

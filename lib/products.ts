@@ -5,7 +5,7 @@ export const products = [
     slug: "my-finances",
     category: ["Planners"],
     price: 9.99,
-    image: "/ipadMyFinances.png",
+    image: "/ipadMinhasFinancas.jpg",
     features: [
       "Monthly budget and income tracking",
       "Automatic calculations and responsive charts",

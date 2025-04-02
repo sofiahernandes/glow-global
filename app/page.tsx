@@ -63,7 +63,7 @@ export default function Home() {
                   <Card className="overflow-hidden transition-all duration-200 hover:shadow-lg">
                     <div className="aspect-video relative">
                       <Image
-                        src={product.image || "/placeholder.svg"}
+                        src={product.images[0] || "/placeholder.svg"}
                         alt={product.name}
                         fill
                         className="object-cover transition-transform duration-300 group-hover:scale-105"

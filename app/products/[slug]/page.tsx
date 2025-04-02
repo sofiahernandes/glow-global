@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 
 import { products } from "@/lib/products"
+import Carousel from "@/components/carousel"
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
   const product = products.find((p) => p.slug === params.slug)
@@ -35,6 +36,8 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 </div>
                 {product.additionalImages && product.additionalImages.length > 0 && (
                   <div className="grid grid-cols-1 gap-4">
+                    <Carousel images={product?.images}/>
+                    {/*
                     {product.additionalImages.map((img, index) => (
                       <div key={index} className="relative aspect-video overflow-hidden rounded-xl">
                         <Image
@@ -45,6 +48,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                         />
                       </div>
                     ))}
+                    */}
                   </div>
                 )}
               </div>

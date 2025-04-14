@@ -5,9 +5,16 @@ import { ArrowLeft, Check, ShoppingBag } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 import { products } from "@/lib/products"
-import Carousel from "@/components/carousel"
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
   const product = products.find((p) => p.slug === params.slug)
@@ -30,28 +37,23 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             </Link>
 
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 lg:mx-20 md:mx-10 items-start">
-              <div className="space-y-6">
-                <div className="relative aspect-square overflow-hidden rounded-xl">
-                  <Image src={product?.mainImage || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
-                </div>
-                {product?.images.length > 0 && (
-                  <div className="grid grid-cols-1 gap-4">
-                    <Carousel images={product?.images}/>
-                    {/*
-                    {product.additionalImages.map((img, index) => (
-                      <div key={index} className="relative aspect-video overflow-hidden rounded-xl">
-                        <Image
-                          src={img || "/placeholder.svg"}
-                          alt={`${product.name} - additional view ${index + 1}`}
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
+                <div className="relative overflow-hidden rounded-xl">
+                <Carousel>
+                  <CarouselContent>
+                    {product?.images.map((item, index) => (
+                      <CarouselItem key={index} className="flex gap-4 p-0 items-center justify-center">
+                            <Card className="h-full">
+                              <CardContent className="p-0 h-full">
+                                <Image src={item} alt={product.name} className="object-cover h-full"/>
+                              </CardContent>
+                            </Card>
+                      </CarouselItem>
                     ))}
-                    */}
-                  </div>
-                )}
-              </div>
+                  </CarouselContent>
+                  <CarouselPrevious className="relative left-1 mx-2 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
+                  <CarouselNext className="relative right-1 mx-2 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
+                </Carousel>
+                </div>
               <div className="space-y-6">
                 <div>
                   <div className="flex flex-wrap gap-2 mb-3">
@@ -130,7 +132,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                   <div className="overflow-hidden rounded-xl">
                     <div className="aspect-video relative">
                       <Image
-                        src={relatedProduct.image || "/placeholder.svg"}
+                        src={relatedProduct.mainImage || "/placeholder.svg"}
                         alt={relatedProduct.name}
                         fill
                         className="object-cover transition-transform duration-300 group-hover:scale-105"

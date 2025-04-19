@@ -26,7 +26,7 @@ export default function AboutPage() {
             <div className="grid gap-6 lg:gap-12 items-center">
               <div className="space-y-4">
                 <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Our Story</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Turning Struggle into Strength</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Change your destiny for the price of a coffee</h2>
                 <p className="text-gray-500 md:text-xl text-justify my-1">Life can be overwhelming. The never-ending to-do lists, the pressure to have it all together, the feeling that time is slipping through your fingers. We see you. We know what it’s like to crave structure but also freedom—to <span className="italic text-blue-700">dream big yet feel stuck in the everyday chaos</span>. That’s why Glow was born. Not just as a brand but as a movement. A space where women like you can heal, grow, and thrive.🦋</p>
                 
                 <p className="text-gray-500 md:text-xl text-justify my-1">Our digital planners, templates, and calendars aren’t just tools; they are <span className="italic text-blue-700">stepping stones</span> to the life you’ve been envisioning. We’re here to support your journey—one intentional step at a time.</p>

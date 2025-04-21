@@ -66,6 +66,7 @@ export default function Home() {
                         src={product.mainImage || "/placeholder.svg"}
                         alt={product.name}
                         fill
+                        priority={true}
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>

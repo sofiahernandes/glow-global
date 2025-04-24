@@ -135,6 +135,8 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                         src={relatedProduct.mainImage || "/placeholder.svg"}
                         alt={relatedProduct.name}
                         fill
+                        priority={true}
+                        unoptimized={true}
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>

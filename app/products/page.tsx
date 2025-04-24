@@ -78,6 +78,8 @@ export default function ProductsPage() {
                           src={product.mainImage || "/placeholder.svg"}
                           alt={product.name}
                           fill
+                          priority={true}
+                          unoptimized={true}
                           className="object-cover transition-transform duration-300 group-hover:scale-105"
                         />
                       </div>

@@ -67,6 +67,7 @@ export default function Home() {
                         alt={product.name}
                         fill
                         priority={true}
+                        unoptimized={true}
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>

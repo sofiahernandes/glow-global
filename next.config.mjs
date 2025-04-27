@@ -14,8 +14,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    loader: 'custom',
-    loaderFile: './image-loader.js',
+    unoptimized: true,
   },
   experimental: {
     webpackBuildWorker: true,

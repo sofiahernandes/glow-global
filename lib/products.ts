@@ -5,7 +5,7 @@ export const products = [
     slug: "my-finances",
     category: ["Planners"],
     price: 11.11,
-    mainImage: "/ipadMinhasFinancas.jpg",
+    mainImage: "/ipadMyFinances.jpg",
     features: [
       "Monthly budget and income tracking",
       "Automatic calculations and responsive charts",
@@ -17,7 +17,7 @@ export const products = [
       "This comprehensive and intuitive tool makes managing and organizing your finances infinitely easier. With spreadsheets, analyses, charts, and overviews, you'll achieve the financial results you've always dreamed of! The My Finances planner includes an annual overview of your income and expenses, investments tracking, goal management, and detailed monthly spreadsheets where you can log your finances in different categories, types, and more.",
     quote:
       "'Reflect daily on your progress and your purpose—this inner dialogue is the compass that will guide your journey to success.'✨ – Warrant Buffet",
-    images: ["/ipadMinhasFinancas.jpg", "/phoneMinhasFinancas.jpg"],
+    images: ["/ipadMyFinances.jpg", "/phoneMyFinances.jpg"],
     formats: ["Google Sheets", "PDF", "Printable Format"],
     url: "https://gumroad.com/checkout?layout=profile&product=koudro&quantity=1&referrer=https%3A%2F%2Fglowmerch.gumroad.com%2F%3F_gl%3D1*yjant9*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4wLjE3NDM0NDk5NjcuMC4wLjA.&_gl=1*1gtwzd5*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4xLjE3NDM0NTAwODEuMC4wLjA."
   },

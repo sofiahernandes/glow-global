@@ -85,7 +85,7 @@ export const products = [
     url: "https://gumroad.com/checkout?product=uqnpye&quantity=1&_gl=1*1jwseb2*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU3NTcuMC4wLjA."
   },
   {
-    id: 4,
+    id: 5,
     name: "Studies Planner💸 (Notion)",
     slug: "planner-studies-notion",
     category: ["Templates", "Planners"],

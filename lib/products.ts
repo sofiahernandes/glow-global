@@ -48,7 +48,7 @@ export const products = [
     slug: "ultimate-planner",
     category: ["Planners", "Calendars"],
     price: 9.99,
-    mainImage: "/ipadUltimatePlanner.jpg",
+    mainImage: "/ipadUltimatePlanner.png",
     features: [
       "Daily schedule with hourly time blocks",
       "Weekly schedule for important highlights",
@@ -59,7 +59,7 @@ export const products = [
     description:
       "This complete, user-friendly tool transforms the way you organize your routine and habits. With daily, weekly, and monthly planners, insights, habit trackers, and calendars, you’ll be on the right track to achieving the life you’ve always dreamed of!",
     quote: "'You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.' ✨ – Dr. Seuss",
-    images: ["/ipadUltimatePlanner.jpg", "/phoneUltimatePlanner.jpg"],
+    images: ["/ipadUltimatePlanner.png", "/phoneUltimatePlanner.jpg"],
     formats: ["PDF", "Printable Format"],
     url: "https://gumroad.com/checkout?product=vfess&quantity=1&_gl=1*jt9yaq*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzg5NzY3OC4yNy4xLjE3NDM4OTc4OTcuMC4wLjA."
   },
@@ -69,7 +69,7 @@ export const products = [
     slug: "planner-finances-notion",
     category: ["Templates", "Planners"],
     price: 4.44,
-    mainImage: "/financesNotion1.jpg",
+    mainImage: "/financesNotion1.png",
     features: [
       "Budget, income, and expense tracking",
       "Automatic calculations and correlations",
@@ -80,10 +80,11 @@ export const products = [
       "This complete and intuitive Notion template will make managing and organizing your finances infinitely easier. Through spreadsheets, budgets, and analytics, you’ll reach the financial results you’ve always dreamed of! The Notion Financial Planner is a Notion version of our Google Sheets financial spreadsheet ('My Finances'), with a few differences. It includes tracking for your income, expenses, budgets, investments, and goals — all categorized by date, amount, category, and more.",
     quote:
       "'Reflect daily on your progress and your purpose—this inner dialogue is the compass that will guide your journey to success.'✨ – Warrant Buffet",
-    images: ["/financesNotion1.jpg", "/financesNotion2.jpg"],
+    images: ["/financesNotion1.png", "/financesNotion2.jpg"],
     formats: ["Notion Template ✨"],
     url: "https://gumroad.com/checkout?product=uqnpye&quantity=1&_gl=1*1jwseb2*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU3NTcuMC4wLjA."
   },
+  /*
   {
     id: 5,
     name: "Habit Tracker📜 (Notion)",
@@ -125,4 +126,5 @@ export const products = [
     formats: ["Notion Template ✨"],
     url: "https://gumroad.com/checkout?product=wsokbd&quantity=1&_gl=1*14sumgc*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTYxODguMC4wLjA."
   },
+  */
 ]

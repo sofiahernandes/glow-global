@@ -48,7 +48,7 @@ export const products = [
     slug: "ultimate-planner",
     category: ["Planners", "Calendars"],
     price: 9.99,
-    mainImage: "/ipadUltimatePlanner.png",
+    mainImage: "/ipadUltimatePlanner.jpg",
     features: [
       "Daily schedule with hourly time blocks",
       "Weekly schedule for important highlights",
@@ -59,7 +59,7 @@ export const products = [
     description:
       "This complete, user-friendly tool transforms the way you organize your routine and habits. With daily, weekly, and monthly planners, insights, habit trackers, and calendars, you’ll be on the right track to achieving the life you’ve always dreamed of!",
     quote: "'You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.' ✨ – Dr. Seuss",
-    images: ["/ipadUltimatePlanner.png", "/phoneUltimatePlanner.jpg"],
+    images: ["/ipadUltimatePlanner.jpg", "/phoneUltimatePlanner.jpg"],
     formats: ["PDF", "Printable Format"],
     url: "https://gumroad.com/checkout?product=vfess&quantity=1&_gl=1*jt9yaq*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzg5NzY3OC4yNy4xLjE3NDM4OTc4OTcuMC4wLjA."
   },
@@ -81,6 +81,27 @@ export const products = [
     quote:
       "'Reflect daily on your progress and your purpose—this inner dialogue is the compass that will guide your journey to success.'✨ – Warrant Buffet",
     images: ["/financesNotion1.png", "/financesNotion2.jpg"],
+    formats: ["Notion Template ✨"],
+    url: "https://gumroad.com/checkout?product=uqnpye&quantity=1&_gl=1*1jwseb2*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU3NTcuMC4wLjA."
+  },
+  {
+    id: 4,
+    name: "Studies Planner💸 (Notion)",
+    slug: "planner-studies-notion",
+    category: ["Templates", "Planners"],
+    price: 4.44,
+    mainImage: "/studiesNotion1.png",
+    features: [
+      "Weekly checklist planner",
+      "Monthly calendar synced with your to-do lists",
+      "Categorized to-do lists",
+      "Built-in Spotify study playlist!",
+    ],
+    description:
+      "This complete and easy-to-use tool simplifies the way you manage and organize your academic life. Through sincronized calendars, trackers, and organizational and motivational tools, you'll achive the academic success you've always dreamed of!",
+    quote:
+      "'When it comes to cultivating effective learning, one provocative question is worth more than a hundred proclamations.' ✨ – Bernard Bull",
+    images: ["/studiesNotion1.png", "/studiesNotion2.jpg"],
     formats: ["Notion Template ✨"],
     url: "https://gumroad.com/checkout?product=uqnpye&quantity=1&_gl=1*1jwseb2*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU3NTcuMC4wLjA."
   },

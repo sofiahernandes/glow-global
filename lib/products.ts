@@ -47,7 +47,7 @@ export const products = [
     name: "The Ultimate 2025 Personal Planner 🗓️",
     slug: "ultimate-planner",
     category: ["Planners", "Calendars"],
-    price: 9.99,
+    price: 7.77,
     mainImage: "/ipadUltimatePlanner.jpg",
     features: [
       "Daily schedule with hourly time blocks",
@@ -68,7 +68,7 @@ export const products = [
     name: "Finances Planner💸 (Notion)",
     slug: "planner-finances-notion",
     category: ["Templates", "Planners"],
-    price: 4.44,
+    price: 9.99,
     mainImage: "/financesNotion1.png",
     features: [
       "Budget, income, and expense tracking",
@@ -89,7 +89,7 @@ export const products = [
     name: "Studies Planner💸 (Notion)",
     slug: "planner-studies-notion",
     category: ["Templates", "Planners"],
-    price: 4.44,
+    price: 9.99,
     mainImage: "/studiesNotion1.png",
     features: [
       "Weekly checklist planner",

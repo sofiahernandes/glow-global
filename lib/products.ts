@@ -98,7 +98,7 @@ export const products = [
       "Built-in Spotify study playlist!",
     ],
     description:
-      "This complete and easy-to-use tool simplifies the way you manage and organize your academic life. Through sincronized calendars, trackers, and organizational and motivational tools, you'll achive the academic success you've always dreamed of!",
+      "This complete and easy-to-use tool simplifies the way you manage and organize your studies. With to-do lists, insights, and trackers, you’ll achieve the academic success you’ve always dreamed of! The Notion Study Planner includes to-do lists, calendars, a built-in study playlist, and other helpful tools.",
     quote:
       "'When it comes to cultivating effective learning, one provocative question is worth more than a hundred proclamations.' ✨ – Bernard Bull",
     images: ["/studiesNotion1.png", "/studiesNotion2.jpg"],

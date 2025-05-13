@@ -103,7 +103,7 @@ export const products = [
       "'When it comes to cultivating effective learning, one provocative question is worth more than a hundred proclamations.' ✨ – Bernard Bull",
     images: ["/studiesNotion1.png", "/studiesNotion2.png"],
     formats: ["Notion Template ✨"],
-    url: "https://gumroad.com/checkout?product=uqnpye&quantity=1&_gl=1*1jwseb2*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU3NTcuMC4wLjA."
+    url: "https://gumroad.com/checkout?layout=profile&recommended_by=more_like_this&recommender_model_name=sales&product=wsokbd&quantity=1&referrer=https%3A%2F%2Fgumroad.com%2F&_gl=1*emt34x*_ga*MTU3NjU5NjgxMS4xNzQ3MDQ5ODY1*_ga_6LJN6D94N6*czE3NDcxMzM5MDIkbzIkZzEkdDE3NDcxMzM5NTckajAkbDAkaDA."
   },
   /*
   {

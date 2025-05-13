@@ -17,7 +17,7 @@ export const products = [
       "This comprehensive and intuitive tool makes managing and organizing your finances infinitely easier. With spreadsheets, analyses, charts, and overviews, you'll achieve the financial results you've always dreamed of! The My Finances planner includes an annual overview of your income and expenses, investments tracking, goal management, and detailed monthly spreadsheets where you can log your finances in different categories, types, and more.",
     quote:
       "'Reflect daily on your progress and your purpose—this inner dialogue is the compass that will guide your journey to success.'✨ – Warrant Buffet",
-    images: ["/ipadMyFinances.jpg", "/phoneMyFinances.jpg"],
+    images: ["/ipadMyFinances.jpg", "/phoneMyFinances.png"],
     formats: ["Google Sheets", "PDF", "Printable Format"],
     url: "https://gumroad.com/checkout?layout=profile&product=koudro&quantity=1&referrer=https%3A%2F%2Fglowmerch.gumroad.com%2F%3F_gl%3D1*yjant9*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4wLjE3NDM0NDk5NjcuMC4wLjA.&_gl=1*1gtwzd5*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4xLjE3NDM0NTAwODEuMC4wLjA."
   },
@@ -38,7 +38,7 @@ export const products = [
       "This all-in-one, easy-to-use tool simplifies the way you manage and organize your studies. With built-in spreadsheets, insights, visuals, and summaries, you'll achive the academic success you've always dreamed of! The My Studies planner includes multiple-choice and essay questions analysis, study time and insights tracking, and detailed charts which track your mistakes.",
     quote:
       "'When it comes to the design of effective learning experiences, one provocative question is worth a hundred proclamations.'✨ – Bernard Bull",
-    images: ["/ipadMyStudies.jpg", "/phoneMyStudies.jpg"],
+    images: ["/ipadMyStudies.jpg", "/phoneMyStudies.png"],
     formats: ["Google Sheets", "PDF", "Printable Format"],
     url: "https://gumroad.com/checkout?layout=profile&product=ytytfu&quantity=1&referrer=https%3A%2F%2Fglowmerch.gumroad.com%2F%3F_gl%3D1*yjant9*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4wLjE3NDM0NDk5NjcuMC4wLjA.&_gl=1*1cjj03h*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4xLjE3NDM0NTAxNDEuMC4wLjA."
   },
@@ -59,7 +59,7 @@ export const products = [
     description:
       "This complete, user-friendly tool transforms the way you organize your routine and habits. With daily, weekly, and monthly planners, insights, habit trackers, and calendars, you’ll be on the right track to achieving the life you’ve always dreamed of!",
     quote: "'You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.' ✨ – Dr. Seuss",
-    images: ["/ipadUltimatePlanner.jpg", "/phoneUltimatePlanner.jpg"],
+    images: ["/ipadUltimatePlanner.jpg", "/phoneUltimatePlanner.png"],
     formats: ["PDF", "Printable Format"],
     url: "https://gumroad.com/checkout?product=vfess&quantity=1&_gl=1*jt9yaq*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzg5NzY3OC4yNy4xLjE3NDM4OTc4OTcuMC4wLjA."
   },
@@ -80,7 +80,7 @@ export const products = [
       "This complete and intuitive Notion template will make managing and organizing your finances infinitely easier. Through spreadsheets, budgets, and analytics, you’ll reach the financial results you’ve always dreamed of! The Notion Financial Planner is a Notion version of our Google Sheets financial spreadsheet ('My Finances'), with a few differences. It includes tracking for your income, expenses, budgets, investments, and goals — all categorized by date, amount, category, and more.",
     quote:
       "'Reflect daily on your progress and your purpose—this inner dialogue is the compass that will guide your journey to success.'✨ – Warrant Buffet",
-    images: ["/financesNotion1.png", "/financesNotion2.jpg"],
+    images: ["/financesNotion1.png", "/financesNotion2.png"],
     formats: ["Notion Template ✨"],
     url: "https://gumroad.com/checkout?product=uqnpye&quantity=1&_gl=1*1jwseb2*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU3NTcuMC4wLjA."
   },
@@ -101,7 +101,7 @@ export const products = [
       "This complete and easy-to-use tool simplifies the way you manage and organize your studies. With to-do lists, insights, and trackers, you’ll achieve the academic success you’ve always dreamed of! The Notion Study Planner includes to-do lists, calendars, a built-in study playlist, and other helpful tools.",
     quote:
       "'When it comes to cultivating effective learning, one provocative question is worth more than a hundred proclamations.' ✨ – Bernard Bull",
-    images: ["/studiesNotion1.png", "/studiesNotion2.jpg"],
+    images: ["/studiesNotion1.png", "/studiesNotion2.png"],
     formats: ["Notion Template ✨"],
     url: "https://gumroad.com/checkout?product=uqnpye&quantity=1&_gl=1*1jwseb2*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU3NTcuMC4wLjA."
   },
@@ -125,27 +125,6 @@ export const products = [
     images: ["/habitsNotion1.jpg", "/habitsNotion2.jpg"],
     formats: ["Notion Template ✨"],
     url: "https://gumroad.com/checkout?product=xzcfe&quantity=1&_gl=1*h1o18k*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTU5ODIuMC4wLjA."
-  },
-  {
-    id: 6,
-    name: "Studies Planner📚 (Notion)",
-    slug: "studies-planner-notion",
-    category: ["Templates", "Planners"],
-    price: 4.44,
-    mainImage: "/studiesNotion1.jpg",
-    features: [
-      "Weekly checklist agenda",
-      "Categorized to-do lists",
-      "Monthly calendar synced with your task lists",
-      "Built-in Spotify study playlist!",
-    ],
-    description:
-      "This complete and easy-to-use tool simplifies the way you manage and organize your studies. With to-do lists, insights, and trackers, you'll achieve the academic success you've always dreamed of! The Notion Study Planner includes to-do lists, calendars, an embedded study playlist, and many other helpful tools.",
-  quote:
-      "'When it comes to the design of effective learning experiences, one provocative question is worth a hundred proclamations.'✨ – Bernard Bull",
-    images: ["/studiesNotion1.jpg", "/studiesNotion2.jpg"],
-    formats: ["Notion Template ✨"],
-    url: "https://gumroad.com/checkout?product=wsokbd&quantity=1&_gl=1*14sumgc*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NTA5NDcwOS40Ni4xLjE3NDUwOTYxODguMC4wLjA."
   },
   */
 ]

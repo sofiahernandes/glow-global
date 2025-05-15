@@ -94,8 +94,9 @@ export default function ProductsPage() {
                         ))}
                         <h3 className="font-semibold text-lg">{product.name}</h3>
                         <p className="text-xs text-gray-500 mt-1 line-clamp-2">{product.description}</p>
-                        <div className="flex items-center justify-between mt-4">
-                          <span className="font-bold text-blue-600">${product.price}</span>
+                        <div className="flex items-center justify-right mt-4">
+                          <p className="font-bold text-blue-600">${product.price}</p>
+                          <p className="font-bold line-through text-gray-500 text-xs mb-1 mx-2">${product.price + 3}</p>
                         </div>
                       </CardContent>
                     </Card>

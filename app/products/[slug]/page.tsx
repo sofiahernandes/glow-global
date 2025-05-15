@@ -71,10 +71,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                     <Button asChild className="bg-blue-600 hover:bg-blue-700 w-60">
                       <a href={product.url} target="_blank" rel="noopener noreferrer">
                         <ShoppingBag className="mr-2 h-5 w-5" />
-                        Get Yours Today!
+                        Grab it Today
                       </a>
                     </Button>
-                    <p className="text-xl font-bold text-blue-600 mt-1">${product.price}</p>
+                    <div className="flex items-center align-middle justify-left">
+                      <p className="text-xl font-bold text-blue-600 mt-1">R${product.price}</p>
+                      <p className="font-bold line-through mx-2 mt-1 text-gray-500">R${product.price + 3}</p>
+                    </div>
                   </div>
                 </div>
 

@@ -16,6 +16,7 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-50">
+          <div className="h-6 w-full bg-blue-700"><p>Exclusive May Sales!</p></div>
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -75,14 +76,17 @@ export default function Home() {
                       <h3 className="font-semibold text-lg">{product.name}</h3>
                       <p className="text-sm text-gray-500 mt-1">{product.category[0]}</p>
                       <div className="flex items-center justify-between mt-4">
-                        <span className="font-bold text-blue-600">${product.price}</span>
+                        <div className="flex items-center align-middle justify-left">
+                          <p className="text-xl font-bold text-blue-600 mt-1">${product.price}</p>
+                          <p className="font-bold line-through text-gray-500 mx-2 mt-1">${product.price + 3}</p>
+                        </div>
                         <Button
                           size="sm"
                           variant="outline"
                           className="rounded-full hover:bg-blue-700 hover:text-blue-50 border-blue-700 text-bold text-blue-700"
                         >
                           <ShoppingBag className="h-4 w-4 mr-2" />
-                          Get Access
+                          Grab it Today
                         </Button>
                       </div>
                     </CardContent>

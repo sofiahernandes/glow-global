@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🦋 Glow Global</h1>
   <p align="center">
-    Ecommerce of planners and productivity tools designed to help you heal, grow, and thrive!<br/>
+    Ecommerce of planners and tools designed to help you heal, grow, and thrive!<br/>
     Find all planners and templates at <a href="https://glowglobal.vercel.app/">Glow Global Official Store</a> 🤍
     <br />
     <a href="https://github.com/sofiahernandes/notion-clone/issues">Report Bug</a>
@@ -12,7 +12,7 @@
 
 ## 🚀 Tech Stack
 - **Frontend:** Next.js and React  
-- **UI Components:** Radix UI and Tailwind CSS  
+- **UI Components:** Radix UI and Tailwind  
 - **Product Logic:** TypeScript  
 - **Deployment:** Vercel  
 
@@ -20,12 +20,12 @@
 🔄 Real-time database via Convex  
 📝 Notion-style block editor  
 🧾 Infinite nested documents  
-🗑️ Trash bin with soft delete & recovery  
+🗑️ Trash bin (soft delete & recovery)  
 🔐 User authentication via Clerk  
 📁 Create, upload, and delete files  
-🖼️ Customizeble cover image per document  
-📎 Custom icons for documents, with real-time updates  
-📂 Expandable and collapsible sidebar navigation  
+🖼️ Customizeble cover images  
+📎 Custom icons for documents  
+📂 Expandable sidebar navigation  
 📱 Fully responsive (mobile + desktop)  
 <br/>
 

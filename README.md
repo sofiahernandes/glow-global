@@ -1,5 +1,3 @@
-<br>
-
 <div align="center">
   <h1>🦋 Glow Global</h1>
   <p align="center">

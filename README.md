@@ -17,15 +17,8 @@
 - **Deployment:** Vercel  
 
 ## ✨ Features
-🔄 Real-time database via Convex  
-📝 Notion-style block editor  
-🧾 Infinite nested documents  
-🗑️ Trash bin (soft delete & recovery)  
-🔐 User authentication via Clerk  
-📁 Create, upload, and delete files  
-🖼️ Customizeble cover images  
-📎 Custom icons for documents  
-📂 Expandable sidebar navigation  
+🏃‍♀️ Navigatable Pages and Sections
+🤝 Gumroad integration
 📱 Fully responsive (mobile + desktop)  
 <br/>
 

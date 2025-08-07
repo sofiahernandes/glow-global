@@ -17,9 +17,9 @@
 - **Deployment:** Vercel  
 
 ## ✨ Features
-🏃‍♀️ Navigatable Pages and Sections
-🤝 Gumroad integration
-📱 Fully responsive (mobile + desktop)  
+🏃‍♀️ Navigatable Pages and Sections  
+🤝 Gumroad integration  
+📱 Fully responsive (mobile + desktop)   
 <br/>
 
 ## 🛠️ Getting Started
